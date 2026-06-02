@@ -32,4 +32,39 @@ header nav ul li a{
     width: 30px;
     height: 30px;
     margin-left: auto;
+    cursor: pointer;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.atracoes{
+    display: flex;
+    justify-content: center;
+}
+
+.artista{
+    margin: 5px;
+}
+
+.artista img{
+    border-radius: 20px;
+    width: 200px;
+}
+
+.artista p{
+    font-size: 15px;
+    text-align: center;
 }
