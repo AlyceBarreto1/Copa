@@ -2,7 +2,9 @@ const textos = document.getElementsByClassName("h2");
 const tema = document.getElementById("trocar");
 const cantores = document.querySelector(".cantores");
 const p = document.querySelectorAll("p");
+const a = document.getElementsByTagName("a");
 
+a[2].style.color = "yellow";
 
 p[1].style.color = "pink";
 p[4].style.color = "purple";
